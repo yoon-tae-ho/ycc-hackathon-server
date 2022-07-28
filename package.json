@@ -1,0 +1,26 @@
+{
+  "name": "ycc_hackathon_1_server",
+  "version": "1.0.0",
+  "description": "victory!",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'",
+    "dev": "nodemon --exec npm run babel-node -- ./src/init.js"
+  },
+  "author": "yoon-tae-ho <pln0302@yonsei.ac.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "nodemon": "^2.0.19"
+  }
+}
