@@ -5,15 +5,16 @@
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'",
-    "dev": "nodemon --exec npm run babel-node -- ./src/init.js"
+    "dev": "nodemon"
   },
   "author": "yoon-tae-ho <pln0302@yonsei.ac.kr>",
-  "license": "MIT",
+  "license": "",
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "mongoose": "^6.5.0",
     "morgan": "^1.10.0",
     "regenerator-runtime": "^0.13.9"
   },
